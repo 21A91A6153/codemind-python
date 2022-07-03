@@ -1,9 +1,10 @@
-n=input()
-n=n.split()
-for i in n:
+a=input()
+b=[]
+a=a.split()
+for i in a:
     k=min(i)
-    break
-for i in range(len(n)-1,-1,-1):
-    m=max(n[i])
-    break
-print(k,m)
+    g=max(i)
+    b.append(k)
+    b.append(g)
+print(b[0],b[-1])
+    
