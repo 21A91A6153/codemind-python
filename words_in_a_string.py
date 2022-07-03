@@ -1,9 +1,6 @@
-n=input()
-k=n.split()
+a=input()
+a=a.split()
 c=0
-for i in k:
-    c=c+k.count(i)
+for i in a:
+    c=c+1
 print(c)
-    
-        
-
