@@ -1,6 +1,6 @@
-n=input()
+a=input()
 c=0
-for i in n:
-    if i!=" ":
+for i in a:
+    if i !=" ":
         c=c+1
 print(c)
