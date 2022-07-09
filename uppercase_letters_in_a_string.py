@@ -1,6 +1,6 @@
-n=input()
+a=input()
 c=0
-for i in n:
-    if ord(i)>=65 and ord(i)<=90:
+for i in a:
+    if i in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ':
         c=c+1
 print(c)
