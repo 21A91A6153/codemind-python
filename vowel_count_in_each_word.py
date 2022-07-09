@@ -1,10 +1,9 @@
-n=input()
-n=n.split()
-for i in n:
+a=input()
+c=0
+a=a.split()
+for i in a:
     c=0
-    k=[char for char in i]
-    for j in k:
-        if j in 'aeiouAEIOU':
-            c+=1
-    print(c,end=' ')
-    
+    for j in i:
+        if j in "aeiou":
+            c=c+1
+    print(c,end=" ")
