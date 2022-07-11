@@ -1,10 +1,12 @@
-n=input()
-n=n.lower()
-k=n.split()
+a=input()
+a=a.lower()
+a=a.split()
 c=0
-for i in k:
+for i in a:
     temp=i
-    l=i[::-1]
+    k=i[::-1]
+    l="".join(k)
     if temp==l:
         c=c+1
 print(c)
+    
