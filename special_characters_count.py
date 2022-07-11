@@ -10,4 +10,3 @@ for i in n:
     elif ord(i)>=123 and ord(i)<=126:
         c=c+1
 print(c)
-    #32–47 / 58–64 / 91–96 / 123–126)
