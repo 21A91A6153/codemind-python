@@ -8,4 +8,3 @@ if temp!=l:
 else:
     print("True")
     
-    
