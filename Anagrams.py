@@ -1,10 +1,10 @@
-n=input()
-m=input()
-n=n.lower()
-m=m.lower()
-n=''.join(sorted(n))
-m=''.join(sorted(m))
-if n==m:
-    print("True")
+a=input()
+b=input()
+a=a.lower()
+b=b.lower()
+a=set(a)
+b=set(b)
+if a==b:
+    print(True)
 else:
-    print("False")
+    print(False)
