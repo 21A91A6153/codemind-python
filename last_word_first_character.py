@@ -1,6 +1,6 @@
-a=input()
-a=a.split()
-for i in a[-1]:
+n=input()
+n=n.split()
+t=n[-1]
+for i in t:
     print(i)
     break
-    
