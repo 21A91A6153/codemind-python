@@ -1,6 +1,8 @@
-a=input()
-a=a.split()
-for i in range(len(a)):
+n=input()
+n=n.split()
+b=[]
+for i in range(len(n)):
     if i%2==0:
-        a[i]=a[i][::-1]
-    print(a[i],end=" ")
+        n[i]=n[i][::-1]
+    b.append(n[i])
+print(*b)
