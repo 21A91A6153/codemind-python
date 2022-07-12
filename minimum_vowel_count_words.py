@@ -7,8 +7,9 @@ for i in a:
         if j in "aeiou":
             c=c+1
     b.append(c)
-t=min(b)
-print(b.count(t))
-    
-
-        
+t=max(b)
+k=0
+for i in b:
+    if t==i:
+        k=k+1
+print(k)
