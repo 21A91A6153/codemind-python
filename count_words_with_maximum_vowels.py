@@ -8,7 +8,8 @@ for i in a:
             c=c+1
     b.append(c)
 t=max(b)
-print(b.count(t))
-    
-
-        
+k=0
+for i in b:
+    if t==i:
+        k=k+1
+print(k)
