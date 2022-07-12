@@ -1,8 +1,7 @@
-a=input()
-a=a.split()
-c=[]
-for i in a:
-    k=len(i)
-    c.append(k)
-print(min(c))
+n=input()
+n=n.split()
+b=[]
+for i in n:
+    b.append(len(i))
+print(min(b))
     
