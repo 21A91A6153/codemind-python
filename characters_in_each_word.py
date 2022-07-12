@@ -1,8 +1,5 @@
-a=input()
-a=a.split()
-c=0
-for i in a:
-    c=0
-    for j in i:
-        c=c+1
-    print(c,end=" ") 
+n=input()
+n=n.split()
+for i in n:
+    print(len(i),end=" ")
+    
