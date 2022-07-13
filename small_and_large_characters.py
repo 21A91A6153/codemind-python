@@ -1,9 +1,9 @@
 a=input()
-b=[]
 a=a.split()
+b=[]
 for i in a:
     k=min(i)
-    g=max(i)
+    h=max(i)
     b.append(k)
-    b.append(g)
+    b.append(h)
 print(*b)
