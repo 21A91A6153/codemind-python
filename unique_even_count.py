@@ -1,11 +1,12 @@
 a=int(input())
 l=list(map(int,input().split()))
-b=[]
+c=[]
 for i in l:
-    if i not in b and l.count(i)>=1:
-        b.append(i)
-c=0
-for i in b:
-    if i%2==0:
-        c=c+1
-print(c)
+    if l.count(i)>=1:
+        if i%2==0:
+            c.append(i)
+c=set(c)
+h=0
+for i in c:
+    h=h+1
+print(h)
