@@ -1,0 +1,15 @@
+a,b=map(int,input().split())
+l=list(map(int,input().split()))
+m=list(map(int,input().split()))
+#print(l)
+#print(m)
+k=0
+l=set(l)
+m=set(m)
+j=l
+l=l.difference(m)
+#print(l)
+m=m.difference(j)
+#print(m)
+k=len(l)+len(m)
+print(k)
