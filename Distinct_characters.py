@@ -1,10 +1,9 @@
 n=input()
 n=n.lower()
-n=set(n)
-n=sorted(n)
 b=[]
 for i in n:
-    if i!=" ":
+    if i!=" " and n.count(i)==1:
         b.append(i)
-b="".join(b)
-print(b)
+b=sorted(b)
+k="".join(b)
+print(k)
