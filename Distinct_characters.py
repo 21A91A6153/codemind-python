@@ -1,9 +1,10 @@
 n=input()
 n=n.lower()
-b=[]
+c=[]
 for i in n:
-    if i!=" " and n.count(i)==1:
-        b.append(i)
-b=sorted(b)
-k="".join(b)
-print(k)
+    if i not in c and n.count(i)==1 and i!=' ':
+        c.append(i)
+#print(c)
+c=sorted(c)
+c="".join(c)
+print(c)
