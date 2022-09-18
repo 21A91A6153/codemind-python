@@ -6,8 +6,10 @@ s=n[0]
 for i in s:
     for j in n:
         if i in j:
+           # print(i)
             continue
         else:
+            #print(j)
             break
     else:
         print(i,end='')
