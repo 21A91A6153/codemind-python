@@ -1,0 +1,5 @@
+n=input()
+m=input()
+k=sorted(n+m)
+k="".join(k)
+print(k)
